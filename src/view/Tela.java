@@ -86,17 +86,17 @@ public class Tela extends JFrame {
 		contentPane.add(lblSegundo);
 		
 		JLabel Carro1 = new JLabel("");
-		Carro1.setIcon(new ImageIcon(Tela.class.getResource("/view/carro1.png")));
+		Carro1.setIcon(new ImageIcon(Tela.class.getResource("/view/img/carro1.png")));
 		Carro1.setBounds(-12, 76, 179, 65);
 		contentPane.add(Carro1);
 		
 		JLabel Carro2 = new JLabel("");
-		Carro2.setIcon(new ImageIcon(Tela.class.getResource("/view/carro2.png")));
+		Carro2.setIcon(new ImageIcon(Tela.class.getResource("/view/img/carro2.png")));
 		Carro2.setBounds(-12, 168, 179, 65);
 		contentPane.add(Carro2);
 		
 		JLabel linhaChegada = new JLabel("");
-		linhaChegada.setIcon(new ImageIcon(Tela.class.getResource("/view/linha.png")));
+		linhaChegada.setIcon(new ImageIcon(Tela.class.getResource("/view/img/linha.png")));
 		linhaChegada.setBounds(823, 76, 23, 157);
 		contentPane.add(linhaChegada);
 		
